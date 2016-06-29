@@ -38,7 +38,7 @@ length=len(Exon_data)
 start=datetime.now()
 
 
-f=open("/Users/radhikarawat/PycharmProjects/TCGA2/ExonData.csv","w+")
+f=open("/Users/radhikarawat/PycharmProjects/TCGA2/ExonData","w+")
 for Exon in Exon_data:
     i+=1
     #print i, "out of", length, "elapsed time:", datetime.now()-start
